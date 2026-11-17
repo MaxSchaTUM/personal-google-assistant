@@ -1,0 +1,47 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #22332f;
+  background: #fafbf8;
+  line-height: 1.7;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+a { color: #175f4d; text-underline-offset: 0.2em; }
+a:hover { color: #103c32; text-decoration-thickness: 2px; }
+a:focus-visible { outline: 3px solid #976310; outline-offset: 5px; }
+.site-header, main, footer { width: min(100% - 2.5rem, 48rem); margin-inline: auto; }
+.site-header { padding-block: 1.75rem; border-bottom: 1px solid #d8dfd5; }
+.site-name { font-weight: 700; text-decoration: none; }
+nav { display: flex; flex-wrap: wrap; gap: 0.25rem 1.5rem; margin-top: 0.65rem; }
+nav a { padding-block: 0.3rem; }
+nav [aria-current="page"] { font-weight: 700; text-decoration-thickness: 2px; }
+main { padding-block: 3.25rem 2.5rem; }
+h1, h2 { line-height: 1.2; letter-spacing: -0.025em; color: #173d32; }
+h1 { font-size: clamp(2rem, 6vw, 3rem); margin: 0.5rem 0 1.25rem; }
+h2 { font-size: 1.3rem; margin: 0 0 0.75rem; }
+p { margin: 0 0 1rem; }
+.eyebrow { font-size: 0.8rem; font-weight: 650; letter-spacing: 0.08em; text-transform: uppercase; color: #4a6258; }
+.lead { font-size: 1.25rem; line-height: 1.6; }
+.date { color: #52635a; font-size: 0.95rem; margin-bottom: 1.75rem; }
+section { margin-top: 2.25rem; }
+.integrations { margin: 1.25rem 0; }
+dt { font-weight: 700; margin-top: 1.25rem; }
+dd { margin: 0.35rem 0 0; }
+code { font-size: 0.88em; overflow-wrap: anywhere; }
+ul { padding-left: 1.3rem; }
+li + li { margin-top: 1rem; }
+.notice { background: #edf2e9; border-left: 3px solid #416d55; border-radius: 0 0.4rem 0.4rem 0; padding: 1.5rem; margin-top: 2.25rem; }
+.notice p { margin-bottom: 0; }
+.policy-links { display: flex; flex-wrap: wrap; gap: 0.75rem 1.75rem; font-weight: 650; }
+.policy-links a { padding-block: 0.4rem; }
+footer { border-top: 1px solid #d8dfd5; padding-block: 1.5rem 2rem; color: #52635a; font-size: 0.9rem; }
+footer p { margin-bottom: 0.4rem; }
+.skip-link { position: absolute; top: -6rem; left: 1rem; padding: 0.5rem 1rem; background: #fff; z-index: 1; }
+.skip-link:focus { top: 1rem; }
+@media (max-width: 30rem) {
+  main { padding-top: 2rem; }
+  .notice { padding: 1.1rem; }
+}

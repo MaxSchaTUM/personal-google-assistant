@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How the private Personal Google Assistant integrations access, use, process, and retain Google data.">
+  <title>Privacy policy · Personal Google Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="site-name" href="index.html">Personal Google Assistant</a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="privacy.html" aria-current="page">Privacy policy</a>
+      <a href="terms.html">Terms of use</a>
+    </nav>
+  </header>
+  <main id="main">
+    <p class="eyebrow">Personal Google Assistant</p>
+    <h1>Privacy policy</h1>
+    <p class="date">Created and effective: <time datetime="2026-11-17">17 November 2026</time></p>
+    <p>This policy describes both the private, single-user Hermes assistant and this separate information website. The assistant is for its owner's personal use, not a public service.</p>
+    <section aria-labelledby="access">
+      <h2 id="access">Google data and its use</h2>
+      <p>Each integration requires the owner's Google consent through its own OAuth project.</p>
+      <ul>
+        <li><strong>Calendar:</strong> event information, such as titles, times, descriptions and participants, and free/busy information are accessed as needed to read events, check availability, and create or update events. The scopes are <code>https://www.googleapis.com/auth/calendar.events</code> and <code>https://www.googleapis.com/auth/calendar.freebusy</code>.</li>
+        <li><strong>Gmail:</strong> email content, sender and recipient information, message metadata, labels and read status are accessed as needed to read and send email and manage mailbox state. The scope is <code>https://www.googleapis.com/auth/gmail.modify</code>.</li>
+      </ul>
+      <p>This access supports the owner's personal email and scheduling tasks.</p>
+    </section>
+    <section aria-labelledby="processing">
+      <h2 id="processing">Hosting and third-party processing</h2>
+      <p>The assistant runs on Hostinger, not solely on the owner's computer. Relevant email and calendar content may be processed by the configured AI provider to interpret requests and produce responses, and may be delivered through Telegram. These services may therefore process information involved in the owner's assistant workflow.</p>
+    </section>
+    <section aria-labelledby="storage">
+      <h2 id="storage">Credentials and retained records</h2>
+      <p>OAuth credentials, including tokens needed to maintain authorized access, are stored on the hosted assistant instance. They are not published on this website or in its repository.</p>
+      <p>Conversation history or operational records may retain relevant email, calendar, request or response information. There is no fixed retention period stated here. Revoking Google access does not automatically delete those records, including information already processed or delivered through other services. Any removal of existing records must be handled separately in the hosted instance and relevant services.</p>
+    </section>
+    <section aria-labelledby="revoke">
+      <h2 id="revoke">Revoking Google access</h2>
+      <p>The owner can review and revoke each integration's access in the Google Account's <a href="https://myaccount.google.com/connections">third-party connections settings</a>. Revocation stops future authorized access for that integration; it does not automatically erase existing records. See <a href="https://support.google.com/accounts/answer/14012355?hl=en">Google's explanation of third-party data access</a>.</p>
+    </section>
+    <section aria-labelledby="website">
+      <h2 id="website">This static website</h2>
+      <p>This GitHub Pages website provides information only. It has no Google sign-in or account connection feature and does not receive visitors' Google email or calendar data. Its pages use no JavaScript, analytics, cookies, tracking or external fonts.</p>
+      <p>GitHub's hosting infrastructure may process technical request information, such as IP addresses, to serve and operate the website. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. The hosted assistant and its data storage are separate from this website.</p>
+    </section>
+  </main>
+  <footer>
+    <p>Personal Google Assistant · Private integration</p>
+    <p><a href="index.html">Home</a> · <a href="terms.html">Terms of use</a></p>
+  </footer>
+</body>
+</html>
